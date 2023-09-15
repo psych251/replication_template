@@ -2,12 +2,10 @@
 title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
 author: "Replication Author[s] (contact information)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-output:
-  html_document:
-    toc: yes
+format:
+  html:
+    toc: true
     toc_depth: 3
-    toc_float:
-      collapsed: false
 ---
 
 <!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
